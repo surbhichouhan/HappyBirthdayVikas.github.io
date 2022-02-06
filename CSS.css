@@ -34,10 +34,10 @@ li a:hover {
 
 #bigdiv {
     text-align: center;
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: max-content;
+    height: 100%;
     margin-top: 5%;
     background-color: rgba(235, 45, 11, 0.952);
     
