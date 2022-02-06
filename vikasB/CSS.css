@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(52, 124, 184, 0.876);
+}
+
+li {
+    float: left;
+    margin-left: 2%;
+    font-weight: 1000;
+    font-family: cursive;
+    font-size: 90%;
+}
+
+li a {
+    display: block;
+    color: rgb(151, 9, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: red;
+}
+
+#wish {
+    text-align: center;
+    margin: 2%;
+}
+
+#bigdiv {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    margin-top: 5%;
+    background-color: rgba(235, 45, 11, 0.952);
+    
+
+}
+#wish_button{
+    margin: 1%;
+}
+#card{
+    margin: 2%;
+}
+
+#active{
+    background-color: red;
+    color: white;
+}
