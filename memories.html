@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!!!!! Memories !!!!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<style>
+   #images{
+        width: 50%;
+    }
+    img{
+        position: relative;
+        height: 20%;
+        width: 40%;
+        margin-left: 2%;
+        border: 2px solid white;
+        border-radius: 3%;
+        box-shadow: 3px 3px 3px 2px black;
+        transform: rotate(10deg);
+        /* -webkit-box-reflect: right; */
+    }
+   
+    </style>
+<body>
+    <div id="bigdiv" class="rounded border border-danger">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="memories.html" id="active">Memories</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <!-- <li><a href="about.asp">About</a></li> -->
+        </ul>
+        
+        <marquee><h1 style="background-color: rgb(151, 215, 221); color: crimson; width: max-content;">
+           .........Sweet Memories!!!.....   </h1></marquee>
+        <img src="images/memories/m1.jpg" alt="Me">
+        <img src="images/memories/m2.jpg" alt="Me" >
+        <img src="images/memories/m3.jpg" alt="Me" >
+        <img src="images/memories/m4.jpg" alt="Me" >
+        <img src="images/memories/m5.jpg" alt="Me" >
+        <img src="images/memories/m6.jpg" alt="Me" >
+        <img src="images/memories/m7.jpg" alt="Me" >
+        <img src="images/memories/m8.jpg" alt="Me" >
+
+        
+    
+       
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script>
+    function mywish() {
+        console.log("okkk");
+        document.getElementById("carouselExampleControls").setAttribute("hidden", "true");
+        document.getElementById("card").removeAttribute('hidden');
+    }
+
+</script>
+
+</body>
+</html>
